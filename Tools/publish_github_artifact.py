@@ -14,7 +14,7 @@ VERSION = os.environ['GITHUB_SHA']
 # CONFIGURATION PARAMETERS
 # Forks should change these to publish to their own infrastructure.
 #
-ROBUST_CDN_URL = "https://upload.latestation14.space/"
+ROBUST_CDN_URL = "https://cdn.latestation14.space:8443/"
 FORK_ID = "latestation"
 
 def main():
