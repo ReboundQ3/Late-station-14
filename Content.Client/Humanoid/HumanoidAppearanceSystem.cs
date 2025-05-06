@@ -1,3 +1,4 @@
+using Content.Client.DisplacementMap;
 using System.Numerics;
 using Content.Shared.Humanoid;
 using Content.Shared.Humanoid.Markings;
@@ -16,6 +17,7 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
     [Dependency] private readonly IPrototypeManager _prototypeManager = default!;
     [Dependency] private readonly MarkingManager _markingManager = default!;
     [Dependency] private readonly IEntityManager _entityManager = default!;
+    [Dependency] private readonly DisplacementMapSystem _displacement = default!;
     [Dependency] private readonly IClientConsoleHost _consoleHost = default!;
 
     public override void Initialize()
@@ -325,6 +327,11 @@ public sealed class HumanoidAppearanceSystem : SharedHumanoidAppearanceSystem
             else
             {
                 sprite.LayerSetColor(layerId, Color.White);
+            }
+
+            if (humanoid.MarkingsDisplacement.TryGetValue(markingPrototype.BodyPart, out var displacementData) && markingPrototype.CanBeDisplaced)
+            {
+                _displacement.TryAddDisplacement(displacementData, sprite, targetLayer + j + 1, layerId, out _);
             }
         }
     }

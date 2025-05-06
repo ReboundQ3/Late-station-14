@@ -60,12 +60,12 @@ public sealed class GhostRespawnCommand : IConsoleCommand
             shell.WriteLine("You have no mind.");
             return;
         }
-        var time = (_gameTiming.CurTime - ghost.TimeOfDeath);
+        var time = (_gameTiming.CurTime - ghost.TimeOfDeath).TotalSeconds;
         var respawnTime = _configurationManager.GetCVar(AxolotlCVars.RespawnTime);
 
-        if (respawnTime > time.TotalSeconds)
+        if (respawnTime > time)
         {
-            shell.WriteLine($"You haven't been dead long enough. You have been dead {time.TotalSeconds} seconds of the required {respawnTime}.");
+            shell.WriteLine($"You haven't been dead long enough. You have been dead {time:f1} seconds of the required {respawnTime}.");
             return;
         }
 
