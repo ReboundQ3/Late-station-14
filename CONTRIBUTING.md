@@ -105,7 +105,7 @@ In general, the same rules as for LateStation-specific content apply, but use th
 
 Example:
 - `Resources/Prototypes/_Umbra/game_presets.yml`
-- `Content.Server/_DeltaV/Objectives/Components/TeachLessonConditionComponent.cs`
+- `Content.Server/_DV/Objectives/Components/TeachLessonConditionComponent.cs`
 
 If the namespace in the source fork doesn't start with `_` and there is no content in LateStation that was ported from this fork before, use your best judgment in picking the namespace folder name that will unmistakably indicate the fork the code is taken from.
 

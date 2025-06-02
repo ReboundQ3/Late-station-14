@@ -5,9 +5,9 @@ accent-valleygirl-suffix-4 = , like, you know.
 accent-valleygirl-suffix-5 = , like, oh my gosh~!
 accent-valleygirl-suffix-100 = n'stuff!.
 
-accent-valleygirl-prefix-1 = So, like, 
-accent-valleygirl-prefix-2 = And, like, 
-accent-valleygirl-prefix-3 = And, like, you know, 
+accent-valleygirl-prefix-1 = So, like,
+accent-valleygirl-prefix-2 = And, like,
+accent-valleygirl-prefix-3 = And, like, you know,
 
 
 

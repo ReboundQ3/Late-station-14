@@ -27,10 +27,10 @@
   description: A nice and tidy uniform. Shame about the bar though.
   components:
   - type: Sprite
-#    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi # Commented out on Harmony 
+#    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/bartender.rsi # Updated sprite pathing for Harmony
   - type: Clothing
-#    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi # Commented out on Harmony 
+#    sprite: Clothing/Uniforms/Jumpsuit/bartender.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/Uniforms/Jumpsuit/bartender.rsi # Updated sprite pathing for Harmony
 
 - type: entity
@@ -523,6 +523,7 @@
   - type: Tag
     tags:
     - ClothMade
+    - Recyclable
     - PrisonUniform
     - WhitelistChameleon
 

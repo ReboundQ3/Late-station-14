@@ -14,9 +14,7 @@
       time: 0 #0 hrs
     - !type:DepartmentTimeRequirement
       department: Medical
-      time: 28800 #8 hrs
-    - !type:OverallPlaytimeRequirement
-      time: 43200 #12 hrs
+      time: 36000 #10 hrs
   weight: 10
   startingGear: CMOGear
   icon: "JobIconChiefMedicalOfficer"

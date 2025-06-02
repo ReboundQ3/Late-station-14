@@ -1,5 +1,6 @@
 - type: typingIndicator
   id: felinid
-  spritePath: /Textures/_LateStation/Effects/speech.rsi
+  spritePath: /Textures/_DV/Effects/speech.rsi
   typingState: felinid0
-  offset: 0, 0.2 # 0625
+  idleState: felinid3
+  offset: 0, 0.125

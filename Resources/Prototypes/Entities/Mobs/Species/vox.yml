@@ -80,10 +80,9 @@
     - map: [ "shoes" ]
     - map: [ "ears" ]
     - map: [ "eyes" ]
-    #- map: [ "belt" ] #Harmony Change: Moves Belt back over outerclothing
     - map: [ "id" ]
     - map: [ "outerClothing" ]
-    - map: [ "belt" ] #Harmony Change: Moves Belt back over outerclothing
+    - map: [ "belt" ]
     - map: [ "back" ]
     - map: [ "neck" ]
     - map: [ "enum.HumanoidVisualLayers.FacialHair" ]

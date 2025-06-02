@@ -434,3 +434,23 @@ Entries:
       message: Added seven beanies of varying colors.
   id: 52
   time: '2025-04-27T09:30:54.0000000+00:00'
+- author: '-'
+  changes: []
+  id: 53
+  time: '2025-05-09T16:46:32.0000000+00:00'
+- author: '-'
+  changes: []
+  id: 54
+  time: '2025-05-10T16:25:35.0000000+00:00'
+- author: BaguetteYeast
+  changes:
+    - type: Add
+      message: Added a new shuttle grid NT-Biosphere
+    - type: Add
+      message: Added a variant of the shuttle, NT-Biosphere-OldEarthDiner
+  id: 55
+  time: '2025-05-31T12:42:11.0000000+00:00'
+- author: Necro-a
+  changes: []
+  id: 56
+  time: '2025-05-31T13:14:25.0000000+00:00'

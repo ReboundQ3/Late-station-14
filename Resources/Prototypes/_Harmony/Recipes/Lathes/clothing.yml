@@ -52,12 +52,12 @@
   result: ClothingHeadHatHoSWidebrimHarmony
 
 - type: latheRecipe
-  parent: BaseCommandHatRecipe
+  parent: BaseCommandJumpsuitRecipe
   id: ClothingUniformJumpsuitHeadOfSecurityTurtleneckHarmony
   result: ClothingUniformJumpsuitHeadOfSecurityTurtleneckHarmony
 
 - type: latheRecipe
-  parent: BaseCommandHatRecipe
+  parent: BaseCommandJumpsuitRecipe
   id: ClothingUniformJumpskirtHeadOfSecurityTurtleneckHarmony
   result: ClothingUniformJumpskirtHeadOfSecurityTurtleneckHarmony
 

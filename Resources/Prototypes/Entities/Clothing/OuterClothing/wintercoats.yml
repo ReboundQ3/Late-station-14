@@ -33,6 +33,7 @@
   - type: Tag
     tags:
     - ClothMade
+    - Recyclable
     - WhitelistChameleon
   - type: StaticPrice
     price: 50
@@ -368,7 +369,7 @@
   components:
   - type: Sprite
 #    sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi # Commented out on Harmony
-    sprite: _Harmony/Clothing/OuterClothing/WinterCoats/coathosarmored.rsi # Updated sprite pathing for Harmony 
+    sprite: _Harmony/Clothing/OuterClothing/WinterCoats/coathosarmored.rsi # Updated sprite pathing for Harmony
   - type: Clothing
 #    sprite: Clothing/OuterClothing/WinterCoats/coathosarmored.rsi # Commented out on Harmony
     sprite: _Harmony/Clothing/OuterClothing/WinterCoats/coathosarmored.rsi # Updated sprite pathing for Harmony
@@ -558,7 +559,7 @@
     priceMultiplier: 0.15
   - type: ToggleableClothing
     clothingPrototype: ClothingHeadHatHoodWinterPara
-    
+
 # Harmony Change: Updated the sprite pathing for the QM spriting update
 - type: entity
   parent: [ClothingOuterWinterCoatToggleable, BaseCommandContraband]

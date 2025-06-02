@@ -17,6 +17,7 @@ using System.Linq;
 using System.Numerics;
 using Content.Shared.StatusIcon;
 using Robust.Client.GameObjects;
+using Serilog;
 
 namespace Content.Client.CriminalRecords;
 
@@ -252,6 +253,14 @@ public sealed partial class CriminalRecordsConsoleWindow : FancyWindow
             if (criminalRecord.Status == SecurityStatus.Suspected)
             {
                 message = FormattedMessage.FromMarkupOrThrow(Loc.GetString("criminal-records-console-suspected-reason"));
+            }
+            if (criminalRecord.Status == SecurityStatus.Monitor)
+            {
+                message = FormattedMessage.FromMarkupOrThrow(Loc.GetString("criminal-records-console-monitor"));
+            }
+            if (criminalRecord.Status == SecurityStatus.Search)
+            {
+                message = FormattedMessage.FromMarkupOrThrow(Loc.GetString("criminal-records-console-search"));
             }
             message.AddText($": {reason}");
 

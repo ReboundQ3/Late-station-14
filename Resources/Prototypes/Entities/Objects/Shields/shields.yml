@@ -107,7 +107,7 @@
     - type: Sprite
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-laser-shield.rsi
       state: icon
-      #state: riot_laser-icon 
+      #state: riot_laser-icon
     - type: Item
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-laser-shield.rsi
       size: Ginormous
@@ -138,7 +138,7 @@
     - type: Sprite
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-bullet-shield.rsi
       state: icon
-      #state: riot_bullet-icon 
+      #state: riot_bullet-icon
     - type: Item
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-bullet-shield.rsi
       size: Ginormous
@@ -147,7 +147,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/riot-bullet-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage 
+      - suitStorage
 # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -235,7 +235,7 @@
   components:
 # Begin of Harmony Change: Shield Rework -- Suit Storage Slot
     - type: Sprite
-      sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi 
+      sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi
       state: icon
       #state: makeshift-icon
     - type: Item
@@ -246,7 +246,7 @@
       sprite: _Harmony/Objects/Weapons/Melee/Shields/makeshift-shield.rsi
       quickEquip: false
       slots:
-      - suitStorage 
+      - suitStorage
   # End of Harmony Change
     - type: Blocking
       passiveBlockModifier:
@@ -378,7 +378,7 @@
 
 - type: entity
   name: mirror shield
-  parent: BaseShield
+  parent: [ BaseShield, BaseMagicalContraband ]
   id: MirrorShield
   description: Eerily glows red... you hear the geometer whispering
   components:
