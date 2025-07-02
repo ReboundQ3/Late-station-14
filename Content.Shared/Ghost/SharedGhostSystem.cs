@@ -69,6 +69,8 @@ namespace Content.Shared.Ghost
             if (entity.Comp.CanReturnToBody == value)
                 return;
 
+            entity.Comp.CanReturnToBody = value;
+            Dirty(entity);
         }
 
         [Obsolete("Use the Entity<GhostComponent?> overload")]

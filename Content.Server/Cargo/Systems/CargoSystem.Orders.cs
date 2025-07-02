@@ -427,7 +427,6 @@ namespace Content.Server.Cargo.Systems
                     orderDatabase.Capacity,
                     GetNetEntity(station.Value),
                     orderDatabase.Orders[console.Account],
-                    crewManifest,
                     GetAvailableProducts((consoleUid, console))
                 ));
             }

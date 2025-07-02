@@ -3,12 +3,13 @@
   name: Toggle mantis blades
   description: Extends or retracts the deadly blades in your gloves.
   components:
-  - type: InstantAction
+  - type: Action
     useDelay: 1.0
     icon:
       sprite: _Harmony/Clothing/Hands/Gloves/mantis_activated.rsi
       state: icon
     itemIconStyle: NoItem
+  - type: InstantAction
     event: !type:ToggleActionEvent {}
 
 # Vulpkanin Tail Wagging
@@ -17,9 +18,10 @@
   name: action-name-toggle-wagging
   description: action-description-toggle-wagging
   components:
-  - type: InstantAction
+  - type: Action
     icon: { sprite: _Harmony/Mobs/Customization/Vulpkanin/tail_markings.rsi, state: tail-wag-icon }
     iconOn: { sprite: _Harmony/Mobs/Customization/Vulpkanin/tail_markings.rsi, state: tail-wag-icon }
     itemIconStyle: NoItem
     useDelay: 1 # Prevents Emote Spam
+  - type: InstantAction
     event: !type:ToggleActionEvent

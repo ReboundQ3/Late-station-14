@@ -1,0 +1,26 @@
+- type: entity
+  parent: [ClothingOuterStorageFoldableBase, ClothingOuterWinterCoat]
+  id: PersonalItemBringsHoodie
+  name: Brings' hoodie
+  description: Brings-In-Catch’s beloved hoodie, it has a seal from an anime printed on the back. It looks sun-bleached and well-worn, and smells of campfire, salt, and fruit.  Some white fur is stuck to it, looks like it’s been shared frequently.
+  components:
+  - type: FoldableClothing
+  - type: Sprite
+    sprite: _LateStation/Clothing/OuterClothing/bringshoodie.rsi
+  - type: Clothing
+    sprite: _LateStation/Clothing/OuterClothing/bringshoodie.rsi
+
+- type: entity
+  parent: [ClothingOuterStorageFoldableBaseOpened, PersonalItemBringsHoodie]
+  id: PersonalItemBringsHoodieBringsHoodieOpened
+  name: Brings' hoodie
+
+- type: loadout
+  id: PersonalItemBringsHoodie
+  storage:
+    back:
+      - PersonalItemBringsHoodie
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Brings-In-Catch

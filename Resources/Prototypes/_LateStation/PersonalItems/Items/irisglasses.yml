@@ -1,0 +1,18 @@
+- type: entity
+  parent: ClothingEyesGlasses
+  id: PersonalItemIrisGlasses
+  name: Iris' glasses
+  description: A pair of spectacular spectacles with prescription lenses.
+  components:
+  - type: Clothing
+    sprite: _LateStation/PersonalItems/irisglasses.rsi
+
+- type: loadout
+  id: PersonalItemIrisGlasses
+  storage:
+    back:
+      - PersonalItemIrisGlasses
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Iris Voltia-Softcoat

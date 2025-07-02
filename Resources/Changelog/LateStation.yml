@@ -454,3 +454,69 @@ Entries:
   changes: []
   id: 56
   time: '2025-05-31T13:14:25.0000000+00:00'
+- author: ReboundQ3
+  changes:
+    - type: Fix
+      message: Problem fixed with the return to body button.
+  id: 57
+  time: '2025-06-12T21:26:44.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Add
+      message: Added Wist's HoP Mantle and Iris' Glasses to the Personal Items Loadout
+  id: 58
+  time: '2025-06-17T20:41:07.0000000+00:00'
+- author: AryaRaiin
+  changes:
+    - type: Add
+      message: Ported Prideful Mantle from Harmony
+  id: 59
+  time: '2025-06-18T07:27:01.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Add
+      message: 'Added Brings-in-Catch'' hoodie!  '
+  id: 60
+  time: '2025-06-23T06:39:16.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Fix
+      message: Felinids now start with a survival box
+  id: 61
+  time: '2025-06-23T06:41:39.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Fix
+      message: Corrected capitalization typo in BringsHoodie.yml
+  id: 62
+  time: '2025-06-26T12:38:40.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Add
+      message: Added a personal moth cloak item for Austin.
+  id: 63
+  time: '2025-06-29T18:57:49.0000000+00:00'
+- author: DoggowithaKeyboard
+  changes:
+    - type: Add
+      message: Added floodlights to the engivend.
+    - type: Fix
+      message: Added the RPD back to atmospheric techicians' lockers.
+  id: 64
+  time: '2025-06-30T08:19:35.0000000+00:00'
+- author: bruhmogus
+  changes:
+    - type: Add
+      message: Added four new masks to the AutoDrobe's inventory.
+    - type: Add
+      message: (Re)added sweater jumpsuits and skirts from Wizden.
+  id: 65
+  time: '2025-06-30T08:33:57.0000000+00:00'
+- author: bruhmogus
+  changes:
+    - type: Fix
+      message: >-
+        Removes the Syndicate-Brand Hair Repellant from the PAYDAY masks,
+        meaning you won't randomly become bald.
+  id: 66
+  time: '2025-07-01T21:41:02.0000000+00:00'

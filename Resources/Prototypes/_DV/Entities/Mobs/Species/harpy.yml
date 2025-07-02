@@ -218,9 +218,10 @@
   description: Sing your heart out! Right click yourself to set an instrument.
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
+  - type: Action
     checkCanInteract: false
     icon: _DV/Interface/Actions/harpy_sing.png
+  - type: InstantAction
     event: !type:OpenUiActionEvent
       key: enum.InstrumentUiKey.Key
 
@@ -230,7 +231,8 @@
   description: Change the name others hear to something else.
   categories: [ HideSpawnMenu ]
   components:
-  - type: InstantAction
+  - type: Action
     icon: _DV/Interface/Actions/harpy_syrinx.png
     itemIconStyle: BigAction
+  - type: InstantAction
     event: !type:VoiceMaskSetNameEvent

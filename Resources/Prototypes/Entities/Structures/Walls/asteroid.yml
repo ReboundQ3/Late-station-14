@@ -110,7 +110,6 @@
         acts: ["Destruction"]
       - !type:TriggerBehavior
 
-
 # Ore veins
 - type: entity
   id: AsteroidRockCoal
@@ -366,6 +365,14 @@
       state: rock_asteroid_west
     - state: rock_bananium
       map: [ "enum.MiningScannerVisualLayers.Overlay" ]
+
+- type: entity
+  id: AsteroidRockBananiumCrab
+  parent: AsteroidRockBananium
+  suffix: Bananium Crab
+  components:
+  - type: OreVein
+    currentOre: OreBananiumCrab
 
 - type: entity
   id: AsteroidRockSalt

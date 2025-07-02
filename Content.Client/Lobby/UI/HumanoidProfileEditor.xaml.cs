@@ -253,7 +253,7 @@ namespace Content.Client.Lobby.UI
                     return;
 
                 var prototype = _prototypeManager.Index<SpeciesPrototype>(Profile.Species);
-                newHeight = MathF.Round(Math.Clamp(newHeight, prototype.MinHeight, prototype.MaxHeight), 2);
+                newHeight = MathF.Round(newHeight, 2); // Remove clamping to allow unrestricted height
 
                 // The percentage between the start and end numbers, aka "inverse lerp"
                 var sliderPercent = (newHeight - prototype.MinHeight) /
@@ -851,6 +851,7 @@ namespace Content.Client.Lobby.UI
                 return;
 
             _entManager.System<HumanoidAppearanceSystem>().LoadProfile(PreviewDummy, Profile);
+            SpriteView.SetEntity(PreviewDummy);
 
             // Check and set the dirty flag to enable the save/reset buttons as appropriate.
             SetDirty();

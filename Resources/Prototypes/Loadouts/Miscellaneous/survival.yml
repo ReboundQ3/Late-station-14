@@ -21,6 +21,7 @@
     - Vulpkanin # Harmony
     - Harpy # Latestation
     - Avali # Latestation
+    - Felinid # Latestation
 
 - type: loadoutEffectGroup
   id: EffectSpeciesVox

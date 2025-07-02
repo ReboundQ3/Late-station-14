@@ -1,0 +1,13 @@
+- type: entity
+  parent: ClothingNeckCloakMoth
+  id: PersonalItemAustinMothCloak
+
+- type: loadout
+  id: PersonalItemAustinMothCloak
+  storage:
+    back:
+      - PersonalItemAustinMothCloak
+  effects:
+  - !type:PersonalItemLoadoutEffect
+    character:
+    - Austin Nicholas
